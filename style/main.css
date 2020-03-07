@@ -1,0 +1,24 @@
+
+
+.u_name{
+    color:#007bff;
+    font-weight:bold;
+}
+
+.time{
+    color: #666666;
+    font-size: 12px;
+    float: right;
+    margin-top: 1%;
+}
+
+.content{
+    color:#000;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+.box{
+    width: 100%; background-color:#fff; box-shadow:1px 1px 1px 0px #cdcdcd; border:1px solid #d3d3d3;padding:10px;
+}
