@@ -69,48 +69,13 @@
 
                     <div class="col col-sm-12 col-md-12 col-lg-12 mt-5">
 
-                        <div class="box">
 
-                            <span class="u_name">Subhed Chavan</span> <span class="time"> 12/10/2020</span>
-                            <br><br>
-                            <p class="content">The windows.location object in JavaScript is used to get the current page address(URL) and to redirect the browser to a new page. The window.location object contains the crucial information about a page such as hostname, href, pathname, port etc.</p>
-
-                            <div style="margin-bottom:10px;">
-                                <i class="far fa-heart"></i>
-                                <i class="fas fa-heart"></i>
-                                <i class="far fa-comment-dots"></i>
-                            </div>
-
-                            <form method="POST" action="#" id="cmt1">
-                                <div class="form-group" style="display:inline;"><input class="form-control" id="email" name="comment" type="text" placeholder="Location" style="width:90%;display:inline-block;"></div>
-                                <input name="u_id" value="1" style="display: none;">
-                                <div class="form-group float-right"><button class="btn btn btn-outline-primary cmt_btn" id="1"><span class="mbri-success"></span> Post</button></div>
-                                <form>
-
-                                    <!-- <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Nerul%20Mumbai&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div> -->
-                        </div>
+                    <?php include "includes/fetch_posts.php"; ?>
 
 
-                        <div class="box">
 
-                            <span class="u_name">Subhed Chavan</span> <span class="time"> 12/10/2020</span>
-                            <br><br>
-                            <p class="content">The windows.location object in JavaScript is used to get the current page address(URL) and to redirect the browser to a new page. The window.location object contains the crucial information about a page such as hostname, href, pathname, port etc.</p>
 
-                            <div style="margin-bottom:10px;">
-                                <i class="far fa-heart"></i>
-                                <i class="fas fa-heart"></i>
-                                <i class="far fa-comment-dots"></i>
-                            </div>
 
-                            <form method="POST" action="#" id="cmt2">
-                                <div class="form-group" style="display:inline;"><input class="form-control" id="email" name="comment" type="text" placeholder="Location" style="width:90%;display:inline-block;"></div>
-                                <input name="u_id" value="1" style="display: none;">
-                                <div class="form-group float-right"><button class="btn btn btn-outline-primary cmt_btn" id="2"><span class="mbri-success"></span> Post</button></div>
-                                <form>
-
-                                    <!-- <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Nerul%20Mumbai&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div> -->
-                        </div>
 
                     </div>
 
